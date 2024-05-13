@@ -83,12 +83,15 @@ git config --global --unset https.proxy
 //或者改hosts
 ```
 
-+ **reject**  
++ **reject**
+  
 
 + **git denied to deploy key**
+  
   注意项目里的ssh和个人主页里的ssh不能共用
 
 + **working tree clean**
+  
 //重新改动一下，再add
 
 
@@ -97,12 +100,15 @@ git config --global --unset https.proxy
 git init
 ```
 
-+ **src refspec**
-//本地分支和远程分支不匹配
++ **src refspec**  
+  
+//本地分支和远程分支不匹配  
+
 //需要建立并切换分支
 
 
 + **error setting certificate**
+
 git 本地的ssl密钥不匹配或找不到
 找到.gitconfig文件
 找到此文件后，使用文本编辑器打开就可以。然后添加如下几行：如果有[http]的话直接添加下面两行。如果没有，就把[http]这个也带上。
@@ -113,6 +119,7 @@ sslCAinfo = /bin/curl-ca-bundle.crt
 ```
 
 + **gnutls_handshake() failed**
+
   多试几次，可能是网不好
 
 
