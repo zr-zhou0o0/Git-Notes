@@ -81,6 +81,7 @@ git config --global --unset https.proxy
 //或者从ssh换成url
 //或者端口22和433切换
 //或者改hosts
+git config --list
 ```
 
 + **reject**
@@ -118,9 +119,13 @@ sslVerify = false
 sslCAinfo = /bin/curl-ca-bundle.crt
 ```
 
-+ **gnutls_handshake() failed**
-
++ **gnutls_handshake() failed**  
   多试几次，可能是网不好
+  
++ **empty reply from server**
+
+  多试几次，可能是网不好;
+  可以尝试换一个新的terminal
 
 
 评价：用git进行版本控制不如用邮箱进行版本控制(x
